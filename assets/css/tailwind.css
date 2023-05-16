@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: white;
+    /* @apply bg-gray-50; */
+    margin:20px;
+}
+
+@layer components{
+    .btn{
+        background-color: lightblue;
+        color:#000;
+        padding: 12px 25px;
+        border-radius: 25px;
+
+        /* @apply bg-yellow text-white px-3 py-2 rounded-md text-sm text-white; */
+    }
+    .card{
+        padding:12px 25px;
+        border-radius: 25px;
+        color:#fff;
+        box-shadow: 1px 1px 3px 3px #e2e2e2;
+    }
+}
